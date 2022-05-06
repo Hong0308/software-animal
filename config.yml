@@ -1,0 +1,56 @@
+baseURL: http://example.org/
+
+languageCode: "zh-tw"
+title: Software Animal
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "嗨，這裡是軟體動物"
+    Content: "這不是指什麼章魚、百變怪（？）之類的，而是在講電腦的軟體程式～
+\\
+
+一切跟軟體有相關的東西都會在這裡，包含：程式語言、演算法...
+
+\\
+
+也會有軟實力的相關事務，像是敏捷開發、軟體工程師的肝苦談 XD"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/hong0308"
+    - name: github
+      url: "https://github.com/Hong0308"
+    - name: email
+      url: "mailto:genhom123@gmail.com?subject=我是軟體動物的讀者，我有話說！"
+    - name: facebook
+      url: "https://www.facebook.com/genhom123"
+    - name: instagram
+      url: "https://www.instagram.com/hong.php"
+
+  ShoggwReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  showtoc: true
+
+  cover:
+    linkFullImages: true
+
+permalinks:
+  posts: /:filename/
+
+menu:
+  main:
+    - identifier: categories
+      name: 文章分類
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: 特定標籤
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: 所有文章
+      url: /archives/
+      weight: 30
