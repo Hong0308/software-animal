@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: "https://software-animal.space/"
 
 languageCode: "zh-tw"
 title: Software Animal
