@@ -1,8 +1,8 @@
 baseURL: "https://software-animal.space/"
-
 languageCode: "zh-tw"
 title: Software Animal
 theme: "PaperMod"
+googleAnalytics: G-7DDPPJWF1F
 
 params:
   homeInfoParams:
