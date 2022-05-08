@@ -28,6 +28,10 @@ params:
     - name: instagram
       url: "https://www.instagram.com/hong.php"
 
+  assets:
+    favicon: "/img/favicon.ico"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+
   ShoggwReadingTime: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
@@ -36,8 +40,6 @@ params:
 
   cover:
     linkFullImages: true
-
-  favicon: "img/favicon.ico"
 
 permalinks:
   posts: /:filename/
