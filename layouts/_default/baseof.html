@@ -8,6 +8,10 @@
     {{ partial "analytics-gtag.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.GoogleAdSenseClient }}
+    {{ partial "adsense-google.html" . }}
+    {{ end }}
+
 </head>
 
 <body class="

@@ -43,6 +43,8 @@ params:
   cover:
     linkFullImages: true
 
+  GoogleAdSenseClient: "ca-pub-5760508054397940"
+
 permalinks:
   posts: /:filename/
 
