@@ -29,8 +29,10 @@ params:
       url: "https://www.instagram.com/hong.php"
 
   assets:
-    favicon: "/img/favicon.ico"
-    apple_touch_icon: "/img/apple-touch-icon.png"
+    favicon: "/favicons/favicon.ico"
+    favicon16x16: "/favicons/favicon-16x16.png"
+    favicon32x32: "/favicons/favicon-32x32.png"
+    apple_touch_icon: "/favicons/apple-touch-icon.png"
 
   ShoggwReadingTime: true
   ShowBreadCrumbs: true
