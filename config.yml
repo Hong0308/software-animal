@@ -37,6 +37,8 @@ params:
   cover:
     linkFullImages: true
 
+  favicon: "img/favicon.ico"
+
 permalinks:
   posts: /:filename/
 
